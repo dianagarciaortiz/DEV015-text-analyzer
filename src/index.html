@@ -3,31 +3,42 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Analizador de texto</title>
+  <title> Analizador de texto </title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <script src="index.js" type="module"></script>
-  <h1> analizador de texto </h1>
-  <div>
-    <label> ingresa el texto </label>
-    <textarea> </textarea>
-  </div>
 
-  <div>
-   <button id="reset-button" >
-    Limpiar
-  </button>
-  </div>
+  <header>
+  <h1> Analizador de texto </h1>
+  
+    
+    <textarea   placeholder ="ingresa el texto"  name= "user-input"> </textarea> 
+  
+
+  
+   
+
+  <button id="reset-button"  type="button"> Limpiar  </button>
+  
+
    <ul>
-    <li> </li>
-    <li> </li>
-    <li> </li>
-    <li> </li>
-    <li> </li>
-    <li> </li>
+    <li class="metricas" data-testid="word-count"> Contador de palabras :  </li>
+    <li class="metricas" data-testid="character-count">  Contador de caracteres : </li>
+    <li class="metricas" data-testid="character-no-spaces-count"> Contador de caracteres sin espacios : </li>
+    <li class="metricas" data-testid="word-length-average">  Promedio de palabras : </li>
+    <li class="metricas" data-testid="number-count"> Contador de numeros : </li>
+    <li class="metricas" data-testid="number-sum"> Suma de numeros : </li>
+    
    </ul>
+
+   <footer >
+    <p>
+      By Diana García 
+    </p>
+   </footer>
+
 
 </body>
 </html>
