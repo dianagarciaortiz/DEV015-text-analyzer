@@ -30,7 +30,7 @@ body {
     cursor: pointer;
   }
 
-  textarea[name=user-input] {   
+  textarea[name="user-input"] {   
     border: none;
     padding: 10px, 40px;
     
