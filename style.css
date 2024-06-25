@@ -1,0 +1,47 @@
+html {
+    background-color: #68bff9;
+}
+
+body {
+    width: 600px;
+    margin: 10 auto;
+    background-color:#92C5E7;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid rgba(0, 0, 0, 0.868);
+    text-align: center;
+  }
+
+  .metricas{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2px 2px 2px 2px;
+    margin: 10px 0;
+    background-color: rgb(88, 188, 219);
+    list-style: none;
+    border-width: 1px;
+    text-align: left;
+
+  }
+
+  #reset-button { /* selector de id*/
+    padding: 10px 20px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+
+  textarea[name="user-input"] {   
+    border: none;
+    padding: 10px, 40px;
+    
+    /* selector de atributo */
+
+  }
+
+  header{
+    padding: auto;
+  }
+
+  footer{
+    padding: auto;
+  }
